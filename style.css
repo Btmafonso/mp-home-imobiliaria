@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Ubuntu:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.logo {
+    color: #55b685;
+    display: inline-flex;
+    align-items: center;
+    font-size: large;
+}
+
+.logo a {
+    color: #55b685;
+   font-size: 50px;
+}
+
+.phone {
+    color: #55b685;
+    display: inline-flex;
+    align-items: center;
+    font-size: small;
+}
+
+.phone a {
+    color: #55b685;
+   font-size: 20px;
+}
+
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 100%;
+    padding: 40px;
+    gap: 50px;
+}
+
+.container img {
+    max-width: 800px;
+    height: auto;
+    border-radius: 10px;
+    margin-left: auto;
+}
+.txt {
+    flex: 1;
+    max-width: 60%;
+    text-align: left;
+    margin-left: 40px;
+}
+
+.box {
+    background-color: #55b685;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 50px;
+    display: inline-block;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.txt h1 {
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.txt h2 {
+    color: grey;
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.items {
+    color: grey;
+    display: flex;
+    justify-content: space-between;
+    max-width: 400px;
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+
+
+.numbers {
+    margin-left: 10%;
+    display: flex;
+    justify-content: space-between;
+    max-width: 75%;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.numbers span {
+
+    display: block;
+    color: #55b685;
+    font-weight: 700;
+    font-size: 45px;
+    width: 100px;
+}
+
+footer a{
+    color: #55b685;
+    text-align: right;
+    margin-left: 90%;
+    margin-top: 10%;
+    font-size: 60px;
+
+}
